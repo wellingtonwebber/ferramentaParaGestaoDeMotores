@@ -57,12 +57,12 @@
   }
   
   main {
-    margin-top: 11.4rem;
+    margin-top: 5rem;
     max-width: 38.4rem;
   }
   
   .headline {
-    max-width: 35rem;
+    max-width: 40rem;
   }
   
   h1 {
@@ -182,6 +182,10 @@
   
   .create-account {
     color: #475569;
+  }
+
+  .formBackground {
+    background-color: #0c2c54;
   }
   
   @media (max-width: 900px) {

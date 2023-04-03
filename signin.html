@@ -10,6 +10,7 @@
 </head>
 <body>
     <div id="page" class="flex">
+        
         <div>
           <header>
             <img src="./assets/logoWide.png" alt="" />
@@ -17,11 +18,32 @@
           <main>
             <div class="headline">
               <h1>Acesse a plataforma</h1>
-              <p>
-                Faça login ou cadastre-se para usar o sistema
-              </p>
+              <p>Insira suas informações para realizar o cadastro</p>
             </div>
             <form>
+
+              <div class="input-wrapper">
+                <label for="nome">Nome</label>
+                <input
+                  id="nome"
+                  type="text"
+                  name="nome"
+                  required
+                  placeholder="Digite seu nome e sobrenome"
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="np">NP</label>
+                <input
+                  id="np"
+                  type="number"
+                  name="np"
+                  required
+                  placeholder="Digite seu número pessoal"
+                />
+              </div>
+
               <div class="input-wrapper">
                 <label for="email">E-mail</label>
                 <input
@@ -34,9 +56,8 @@
               </div>
   
               <div class="input-wrapper">
-                <div class="label-wrapper flex">
+                <div class="label-wrapper">
                   <label for="senha"> Senha </label>
-                  <a href="#"> Esqueceu a senha? </a>
                 </div>
   
                 <input
@@ -59,17 +80,13 @@
                 />
               </div>
   
-              <button type="submit">Entrar</button>
-  
-              <div class="create-account">
-                Ainda não tem um cadastro?
-                <a href="#"> Cadastre-se </a>
-              </div>
+              <button type="submit">Cadastrar</button>
+              
             </form>
           </main>
         </div>
-        <img src="./assets/bg.jpg" alt="" />
-      </div>
+        <div class="formBackground"></div></div>
+    </div>
   
       <script>
         function togglePassword() {
