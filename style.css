@@ -109,7 +109,7 @@
     color: #94a3b8;
   }
   
-  input {
+  input, select {
     width: 100%;
   
     background: #ffffff;
@@ -127,7 +127,9 @@
   }
   
   input:focus,
-  input:hover {
+  input:hover,
+  select:focus,
+  select:hover {
     border: 0.1rem solid #164f96;
     outline: 0;
   }
